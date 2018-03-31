@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
@@ -20,21 +21,21 @@
 <body>
     <section class="d-flex flex-column justify-content-between" id="hero">
         <div id="hero-top">
-            <nav class="navbar navbar-light navbar-expand-md">
+            <nav class="navbar navbar-light navbar-expand-md" data-aos="zoom-out-right" data-aos-delay="50">
                 <div class="container-fluid"><a class="navbar-brand" href="#">Restaurant</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse"
                         id="navcol-1">
                         <ul class="nav navbar-nav mx-auto">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#about">About</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#ourProduct">Out Product</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#location">Location</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#about" data-bs-hover-animate="swing">About</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#ourProduct" data-bs-hover-animate="swing">Out Product</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#contact" data-bs-hover-animate="swing">Contact</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#location" data-bs-hover-animate="swing">Location</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-        <div id="hero-buttom">
+        <div data-aos="zoom-out-right" data-aos-delay="300" id="hero-buttom">
             <div class="container">
                 <h1 class="text-left">Restaurant</h1>
             </div>
@@ -43,10 +44,10 @@
     <div id="about" class="projects-horizontal">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">About</h2>
-                <p class="text-center" style="color:rgb(255,255,255);">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                <h2 class="text-center" data-aos="zoom-in-up" data-aos-delay="50">About</h2>
+                <p class="text-center" data-aos="zoom-in-up" data-aos-delay="100" style="color:rgb(255,255,255);">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
             </div>
-            <div class="row projects">
+            <div class="row projects" data-aos="zoom-in-up" data-aos-delay="300">
                 <div class="col-sm-6 item">
                     <div class="row">
                         <div class="col"><a href="#"><img class="img-fluid" src="assets/img/photo-1481070555726-e2fe8357725c.jpg"></a></div>
@@ -66,12 +67,12 @@
     <div id="ourProduct" class="projects-horizontal">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Our Products</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                <h2 class="text-center" data-aos="zoom-in-up" data-aos-delay="50">Our Products</h2>
+                <p class="text-center" data-aos="zoom-in-up" data-aos-delay="100">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
             </div>
             <div class="row projects">
                 <div class="col">
-                    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                    <div class="carousel slide" data-ride="carousel" data-aos="zoom-in-up" data-aos-delay="300" id="carousel-1">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/photo-1473093295043-cdd812d0e601.jpg" alt="Slide Image"></div>
                             <div class="carousel-item"><img class="w-100 d-block" src="assets/img/photo-1481070414801-51fd732d7184.jpg" alt="Slide Image"></div>
@@ -93,20 +94,20 @@
     </div>
     <div id="contact" class="contact-clean">
         <form method="post">
-            <h2 class="text-center">Contact us</h2>
-            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-            <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+            <h2 class="text-center" data-aos="zoom-in-up" data-aos-delay="50">Contact us</h2>
+            <div class="form-group" data-aos="zoom-in-up" data-aos-delay="100"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <div class="form-group" data-aos="zoom-in-up" data-aos-delay="150"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+            <div class="form-group" data-aos="zoom-in-up" data-aos-delay="200"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
+            <div class="form-group" data-aos="zoom-in-up" data-aos-delay="250"><button class="btn btn-primary" type="submit">send </button></div>
         </form>
     </div>
     <div id="location" class="map-clean">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" data-aos="fade-up" data-aos-delay="50">Location</h2>
-                <p class="text-center" data-aos="fade-up" data-aos-delay="100">Nalazimo se 2.7 km od centra grada i 200 metara od tržnog centra "Roda".</p>
+                <h2 class="text-center" data-aos="zoom-in-up" data-aos-delay="50" id="map-heading">Location</h2>
+                <p class="text-center" data-aos="zoom-in-up" data-aos-delay="100">Nalazimo se 2.7 km od centra grada i 200 metara od tržnog centra "Roda".</p>
             </div>
-        </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD0yKIJbClB6-0ljKpSxvXCcc3wkVuj1X8&amp;q=Vrbaska+4%2C+Nis%2C+Srbija&amp;zoom=15" data-aos="fade-up" data-aos-delay="1000"></iframe></div>
+        </div><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD0yKIJbClB6-0ljKpSxvXCcc3wkVuj1X8&amp;q=Vrbaska+4%2C+Nis%2C+Srbija&amp;zoom=15" data-aos="zoom-in-up" data-aos-delay="450"></iframe></div>
     <div
         class="footer-basic">
         <footer>
